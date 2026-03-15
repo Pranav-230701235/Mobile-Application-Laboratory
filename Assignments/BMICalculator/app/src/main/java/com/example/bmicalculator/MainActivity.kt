@@ -28,7 +28,6 @@ class MainActivity : AppCompatActivity() {
                 if (height > 0) {
                     val bmi = weight / (height * height)
 
-                    // Logic to determine category
                     val category = when {
                         bmi < 18.5 -> "Underweight"
                         bmi < 25 -> "Normal Weight"
@@ -36,7 +35,6 @@ class MainActivity : AppCompatActivity() {
                         else -> "Obese"
                     }
 
-                    // Display result formatted to 2 decimal places
                     tvResult.text = "BMI: %.2f\nCategory: %s".format(bmi, category)
                 } else {
                     Toast.makeText(this, "Height cannot be zero", Toast.LENGTH_SHORT).show()
