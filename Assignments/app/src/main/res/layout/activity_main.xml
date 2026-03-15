@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="32dp"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textColor="#444444"
+        android:textSize="100sp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnCheckIn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Check In"
+        android:backgroundTint="#6750A4"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnCheckOut"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Check Out"
+        android:backgroundTint="#6750A4"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false" />
+
+</LinearLayout>
