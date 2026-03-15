@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ValidationApp</string>
+    <string name="user_registration">User Registration</string>
+    <string name="username_hint">Username (Alphabets only)</string>
+    <string name="id_hint">ID (4-digit numeric)</string>
+    <string name="validate">VALIDATE</string>
+</resources>
