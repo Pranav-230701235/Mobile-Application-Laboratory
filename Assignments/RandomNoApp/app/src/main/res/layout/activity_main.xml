@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Random Number Generator"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/etMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Minimum Range"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etMax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Maximum Range"
+        android:inputType="number"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnGenerate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="GENERATE"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="?"
+        android:textSize="60sp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="40dp" />
+
+</LinearLayout>
