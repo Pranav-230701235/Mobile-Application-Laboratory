@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Simple Calculator</string>
+    <string name="num1_hint">Number 1</string>
+    <string name="num2_hint">Number 2</string>
+    <string name="btn_add">+</string>
+    <string name="btn_sub">-</string>
+    <string name="btn_mul">*</string>
+    <string name="btn_div">/</string>
+    <string name="result_text">Result: %1$s</string>
+    <string name="error_divide_zero">Cannot divide by zero</string>
+    <string name="error_enter_numbers">Enter both numbers</string>
+</resources>
