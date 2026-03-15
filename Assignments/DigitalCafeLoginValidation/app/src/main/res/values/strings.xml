@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DigitalCafeLoginValidation</string>
+    <string name="title_college_login">College Login</string>
+    <string name="hint_email">College Email ID</string>
+    <string name="hint_password">Password (Min 12 chars)</string>
+    <string name="btn_validate">VALIDATE LOGIN</string>
+    <string name="error_empty_fields">Fields cannot be empty</string>
+    <string name="error_invalid_email">Enter a valid email address</string>
+    <string name="error_invalid_password">Password must be 12+ chars with 1 Upper, 1 Digit, and 1 Special char</string>
+    <string name="success_login">Login Validated Successfully!</string>
+</resources>
